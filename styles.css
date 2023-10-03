@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+
+body {
+  background-color: #e7dfd8;
+  font-family: "Quicksand", sans-serif;
+}
+
+/* text styles */
+h1 {
+  font-size: 56px;
+}
+
+p {
+  font-size: 18px;
+}
+
+/* style the nav bar inspired by w3schools horizontal nav bar */
+/* see: https://www.w3schools.com/css/css_navbar_horizontal.asp */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* style the about section inspired by Canva post layout */
+/* see: Canva Creative Studio's Light Beige Sleek and Simple Blogger Personal Website */
+.about_container {
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 20px;
+  column-gap: 30px;
+}
+
+#profile_pic {
+  object-fit: cover;
+  width: 100%;
+  border-radius: 10%;
+}
+
+.contact {
+  margin-top: -30px;
+}
+
+#contact_me {
+  font-size: 15px;
+}
+
+i {
+  margin: 5px;
+}
+
+/* footer styles */
+.footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
