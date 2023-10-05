@@ -7,7 +7,6 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
-    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
 
@@ -15,7 +14,8 @@
     <!-- nav bar -->
     <nav class="navbar">
       <ul class="nav_list">
-        <li><a href="resume.html">RESUME</a></li>
+        <li><a href="#resume">RESUME</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
         <li><a href="index.html">HOME</a></li>
       </ul>
     </nav>
@@ -73,14 +73,14 @@
       </div>
 
       <!-- my projects/ portfolio -->
-      <div class="portfolio_container">
-        <h1>projects</h1>
+      <div class="container">
+        <h1 id="projects">projects</h1>
         <br />
-        <div class="project">
-          <h2 class="project_name">
+        <div class="item">
+          <h2 class="item_title">
             Alzheimer’s Screening Chrome Extension | Spring'22
           </h2>
-          <p class="project_description">
+          <p class="item_description">
             Convenient at-home screening tool that continuously monitors
             cognitive health by tracking character per minute and pauses per
             minute which have been found by a study to be good indicators of
@@ -92,9 +92,9 @@
           ></a>
         </div>
 
-        <div class="project">
-          <h2 class="project_name">Barrier | Fall'21</h2>
-          <p class="project_description">
+        <div class="item">
+          <h2 class="item_title">Barrier | Fall'21</h2>
+          <p class="item_description">
             Mental health awareness app visually demonstrating the barriers
             people face when seeking out mental health services in the United
             States
@@ -106,9 +106,9 @@
           ></a>
         </div>
 
-        <div class="project">
-          <h2 class="project_name">School Reopening Calculator | Fall'20</h2>
-          <p class="project_description">
+        <div class="item">
+          <h2 class="item_title">School Reopening Calculator | Fall'20</h2>
+          <p class="item_description">
             Helps school administrators create hybrid school schedules for
             elementary students amidst the pandemic by gauging cohorts needed
             per week, students per cohort etc
@@ -117,6 +117,66 @@
           <a href="https://github.com/sophiapeckner/reopenSchool"
             ><i class="fab fa-github fa-xl"></i
           ></a>
+        </div>
+      </div>
+
+      <!-- my resume -->
+      <div class="container">
+        <h1 id="resume">resume</h1>
+        <br />
+        <div class="item">
+          <h2 class="item_title">
+            <span><i class="fa fa-graduation-cap"></i></span>
+            Education
+          </h2>
+          <p class="item_description">
+            B.S. Software Engineering @ Cal Poly San Luis Obispo
+          </p>
+        </div>
+
+        <div class="item">
+          <h2 class="item_title">
+            <span><i class="fa fa-book"></i></span>
+            Relevant Coursework
+          </h2>
+          <p class="item_description">
+            Data Structures | AP Computer Science
+          </p>
+        </div>
+
+        <div class="item">
+          <h2 class="item_title">
+            <span><i class="fa fa-wrench"></i></span>
+            Skills
+          </h2>
+          <p class="item_description">
+            Python | Java | Web Dev | iOS App Dev | Computer Vision
+          </p>
+        </div>
+
+        <div class="item">
+          <h2 class="item_title">
+            <span><i class="fas fa-desktop"></i></span>
+            Experience
+          </h2>
+          <ul>
+            <p class="item_description">
+              University of Chicago Data Science Institute: Supported the Schmidt Ocean Institute, a nonprofit conducting
+              global marine research by implementing a deep learning pipeline
+              using Python that detects and labels marine organisms in video
+              samples
+            </p>
+            <p class="item_description">
+              Girls Who Code: Co-President since 2021 at Lowell HS's Girls Who Code club where I
+              taught Python and web development
+              samples
+            </p>
+            <p class="item_description">
+              New York Academy of Sciences: Competed in 3 global collaborative healthcare innovation challenges one of which
+              I prototyped a Chrome extension with HTML and JavaScript intended
+              to screen for Alzheimer’s
+              samples
+            </p>
         </div>
       </div>
     </main>

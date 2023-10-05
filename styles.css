@@ -40,12 +40,12 @@ li a {
 /* style the about section inspired by Canva post layout */
 /* see: Canva Creative Studio's Light Beige Sleek and Simple Blogger Personal Website */
 .about_container {
-  border: 1px solid black;
+  border: 2px solid black;
   display: grid;
   grid-template-columns: auto auto;
   padding: 20px;
   column-gap: 30px;
-  margin: 20px;
+  margin: 2vw 5vw 2vw 5vw;
   position: relative;
 }
 
@@ -65,13 +65,13 @@ i {
   margin: 5px;
 }
 
-/* portfolio styles */
-.portfolio_container {
-  /* same as about container */
-  padding: 20px;
+/* container styles (portfolio + resume) */
+.container {
+  /* consistent w/ .about container */
+  padding: 2vw 5vw 2vw 5vw;
 }
 
-.portfolio_container h1 {
+.container h1 {
   text-align: center;
   font-size: 46px;
 }
@@ -80,18 +80,19 @@ i {
   margin-bottom: 30px;
 }
 
-.project_name {
+.item_title {
   font-size: 2vw;
   margin-bottom: 5px;
 }
 
-.project_description {
+.item_description {
   margin-top: 5px;
 }
 
 .tools {
   margin-bottom: 10px;
 }
+
 /* footer styles */
 .footer {
   text-align: center;
