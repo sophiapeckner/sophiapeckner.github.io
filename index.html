@@ -2,12 +2,13 @@
 <html>
   <head>
     <title>Sophia Peckner Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js" defer></script>
   </head>
 
   <body>
@@ -75,10 +76,11 @@
       <!-- my projects/ portfolio -->
       <div class="container">
         <h1 id="projects">projects</h1>
+        <h2 class="subheading">~click on image to learn more!~</h1>
         <br />
         <div class="item">
           <h2 class="item_title">
-            Alzheimer’s Screening Chrome Extension | Spring'22
+            Alzheimer’s Screening Chrome Extension | spring'22
           </h2>
           <p class="item_description">
             Convenient at-home screening tool that continuously monitors
@@ -87,13 +89,19 @@
             cognitive impairment
           </p>
           <p class="tools">Tech stack: JS, CSS, HTML</p>
-          <a href="https://github.com/sophiapeckner/AD_Extension"
-            ><i class="fab fa-github fa-xl"></i
-          ></a>
+          <a href="https://github.com/sophiapeckner/AD_Extension">
+            <i class="fab fa-github fa-xl"></i>
+          </a>
+          
+          <div class="process">
+            <a id="ad_description" title="collaborated w 6 others to create an Alzheimer's screening & treatement solution">
+              <img class="process" id="ad_image" src="images/ad_0.png" onclick="next('ad')"/>
+            </a>
+          </div>
         </div>
 
         <div class="item">
-          <h2 class="item_title">Barrier | Fall'21</h2>
+          <h2 class="item_title">Barrier | fall'21</h2>
           <p class="item_description">
             Mental health awareness app visually demonstrating the barriers
             people face when seeking out mental health services in the United
@@ -101,28 +109,42 @@
           </p>
 
           <p class="tools">Tech stack: Java Processing</p>
-          <a href="https://github.com/sophiapeckner/barrier"
-            ><i class="fab fa-github fa-xl"></i
-          ></a>
+          <a href="https://github.com/sophiapeckner/barrier">
+            <i class="fab fa-github fa-xl"></i>
+          </a>
+
+          <div class="process">
+            <a id="barrier_description" title="found a hackathon focused on social justice issues">
+              <img class="process" id="barrier_image" src="images/barrier_0.png" onclick="next('barrier')"/>
+            </a>
+          </div>
         </div>
 
         <div class="item">
-          <h2 class="item_title">School Reopening Calculator | Fall'20</h2>
+          <h2 class="item_title">School Reopening Calculator | fall'20</h2>
           <p class="item_description">
             Helps school administrators create hybrid school schedules for
             elementary students amidst the pandemic by gauging cohorts needed
             per week, students per cohort etc
           </p>
+          
           <p class="tools">Tech stack: JS, CSS, HTML</p>
-          <a href="https://github.com/sophiapeckner/reopenSchool"
-            ><i class="fab fa-github fa-xl"></i
-          ></a>
+          <a href="https://github.com/sophiapeckner/reopenSchool">
+            <i class="fab fa-github fa-xl"></i>
+          </a>
+
+          <div class="process">
+            <a id="school_description" title="connected w a mentor who was creating a business that helped companies create hybrid work schedules during the pandemic">
+              <img class="process" id="school_image" src="images/school_0.png" onclick="next('school')"/>
+            </a>
+          </div>
         </div>
       </div>
 
       <!-- my resume -->
       <div class="container">
         <h1 id="resume">resume</h1>
+        <h2 class="subheading">~click <a href="https://docs.google.com/document/d/1UEfitPCU642rZ1atnyGYLpvuJjxP6e-4kpYRqklVIbY/edit?usp=sharing">here</a> for full resume!~</h1>
         <br />
         <div class="item">
           <h2 class="item_title">

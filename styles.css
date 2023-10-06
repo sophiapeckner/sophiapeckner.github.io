@@ -73,7 +73,12 @@ i {
 
 .container h1 {
   text-align: center;
-  font-size: 46px;
+  font-size: 4vw;
+}
+
+.container .subheading {
+  text-align: center;
+  font-size: 1.6vw;
 }
 
 .project {
@@ -91,6 +96,28 @@ i {
 
 .tools {
   margin-bottom: 10px;
+}
+
+/* "polaroid" styles */
+.process a {
+  display: block;
+  border: 2px solid black;
+  width: 25vw;
+  padding-bottom: 2vw;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 1vw;
+}
+
+.process a:after {
+  color: black;
+  font-size: 1.6vw;
+  content: attr(title);
+}
+
+.process img {
+  /* should be the same as the .process a width */
+  width: 25vw;
 }
 
 /* footer styles */
